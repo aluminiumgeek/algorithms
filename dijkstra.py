@@ -48,14 +48,14 @@ def dijkstra():
     dist[sv] = 0 # distance from the source to the source
     
     while U:
-        min_vertex = min(dist.items(), key=lambda _: _[1] if _[0] in U else infinity_edge)[0]
+        min_vertex = min(dist.items(), key=lambda x: x[1] if x[0] in U else infinity_edge)[0]
         
         if (min_vertex == sv and sv not in U) or min_vertex == tv:
             break
         
         U.remove(min_vertex)
         
-        neighbor_edges = filter(lambda _: _.startswith(min_vertex), E)
+        neighbor_edges = filter(lambda x: x.startswith(min_vertex), E)
     
         for edge in neighbor_edges:
             v1, v2 = edge # AB -> A, B
