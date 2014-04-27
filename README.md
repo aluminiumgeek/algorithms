@@ -8,3 +8,4 @@ My implementation of common computational algorithms.
 * binary_search.py - [Binary search algorithm](http://en.wikipedia.org/wiki/Binary_search_algorithm). Recursive implementation, supports any iterable object.
 * bubble_sort.py - [Bubble sort](http://en.wikipedia.org/wiki/Bubble_sort).
 * selection_sort.py - [Selection sort](http://en.wikipedia.org/wiki/Selection_sort).
+* insertion_sort.py - [Insertion sort](http://en.wikipedia.org/wiki/Insertion_sort).
