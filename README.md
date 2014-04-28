@@ -9,3 +9,4 @@ My implementation of common computational algorithms.
 * bubble_sort.py - [Bubble sort](http://en.wikipedia.org/wiki/Bubble_sort).
 * selection_sort.py - [Selection sort](http://en.wikipedia.org/wiki/Selection_sort).
 * insertion_sort.py - [Insertion sort](http://en.wikipedia.org/wiki/Insertion_sort).
+* quicksort.py - [Quicksort](http://en.wikipedia.org/wiki/Quicksort). Simple and in-place versions.
